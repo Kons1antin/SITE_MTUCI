@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fdf8e5;
+  font-family: "Open Sans";
+  color: rgb(255, 253, 253);
+}
+
+.wrap_header {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background: url(../img/Phone_head.png) no-repeat center center;
+  background-size: cover;
+  height: 651.05px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  margin-left: 100px;
+  list-style: none;
+}
+.link_nav {
+  font-weight: 700;
+  font-size: 24px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  margin-top: 123px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  width: 467px;
+  height: 167.77px;
+}
+
+.btn_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d21919;
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 217.16px;
+  height: 45.19px;
+  margin-top: 77px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* ------------------------section #2 ------------------------- */
+.title_groups {
+  color: #3d3b3b;
+  font-weight: 700;
+  font-size: 63px;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 81px;
+}
+.card {
+  background: #dfdfdf;
+  margin: 0 120px;
+  width: 354px;
+  height: 500px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 27px 27px 27px 27px;
+}
+
+.card_title {
+  text-align: center;
+  color: #3d3b3b;
+  font-weight: 400;
+  font-size: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.wrap_card_text {
+  margin: 0 auto;
+  width: 326.79px;
+  height: 94.8px;
+}
+.card_text {
+  width: 326.79px;
+  height: 94.8px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.64);
+}
+.card_link {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.card_link_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+  margin-left: 33px;
+  margin-bottom: 22px;
+  width: 170.78px;
+  height: 40.22px;
+  background: #1070ac;
+  box-shadow: 0px -2px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.first_cards_position {
+  display: flex;
+  justify-content: center;
+}
+.last_cards_position {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+/* --------------section №2------------------- */
+
+.snow_phone {
+  height: 1024px;
+
+  background: #aabdce;
+  border: 1px solid #000000;
+  background-size: cover;
+}
+
+.snow_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 42px;
+  color: #3e3947;
+}
+.img_snow {
+  text-align: right;
+}
+.snow_comand {
+  position: relative;
+  top: 43px;
+  bottom: 0px;
+  left: 108px;
+  right: 5px;
+}
+.snow_girl {
+  position: relative;
+  top: -203px;
+  bottom: 0px;
+  left: 305px;
+  right: 0px;
+}
+.snow_man {
+  position: relative;
+  top: -207px;
+  bottom: 0px;
+  left: -158px;
+  right: 0px;
+}
+.snow_text {
+  position: relative;
+  width: 540px;
+  height: 610px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #3d3b3b;
+  top: -863px;
+  left: 265px;
+}
+
+.snow_up_1 {
+  position: relative;
+  top: -118px;
+  bottom: 0px;
+  left: 226px;
+  right: 0px;
+}
+.snow_up_2 {
+  position: relative;
+  top: -165px;
+  bottom: 0px;
+  left: 879px;
+}
+.snow_down_1 {
+  position: relative;
+  left: 198px;
+  bottom: 0px;
+  right: 0px;
+}
+.snow_down_2 {
+  position: relative;
+  top: -50px;
+  bottom: 0px;
+  left: 715px;
+  right: 0px;
+}
+.snow_down_3 {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 1057px;
+  right: 0px;
+}
+.btn_snow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 261px;
+  top: -250px;
+  width: 224px;
+  height: 54px;
+  background: #ff2f2f;
+  border-radius: 30px;
+}
+.btn_snow a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 26px;
+  color: #FFFFFF;
+}
